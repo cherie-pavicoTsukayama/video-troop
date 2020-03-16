@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    max-width: 1200px;
 }
 
 ol, ul {
@@ -10,13 +9,31 @@ ol, ul {
 header {
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
 
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .logo {
-    background-image: ;
+    width: 20%;
+    height: 100px;
+    background-image: url(/assets/VideoTroopWhiteTextNoBackground.png);
+    background-size: 100% 100%;
 }
-
+.nav {
+    color: white;
+}
 .col-1 {
     width: 8%;
 }
