@@ -14,6 +14,7 @@ header {
     justify-content: center;
     align-content: center;
     width: 100%;
+    height: 5vw;
     background-color: black;
 
 }
@@ -23,13 +24,11 @@ header {
     align-items: center;
     align-content: center;
     width: 100%;
-    height: 5vw;
     max-width: 1200px;
-    padding: 1vw 0;;
     justify-content: space-between;
 }
 
-.logo-container {
+.logo {
     width: 30%;
     height: 80%;
     background-image: url(assets/VideoTroopWhiteTextNoBackground.png);
@@ -45,7 +44,33 @@ nav > ul {
     justify-content: space-between;
     padding: 0;
 }
-
+.hero-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+}
+.hero {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 35vw;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    z-index: 1;
+}
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+video {
+    width: 100%;
+}
 .col-1 {
     width: 8%;
 }
