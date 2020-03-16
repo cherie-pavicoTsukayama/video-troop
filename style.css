@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1vw;
 }
 
 ol, ul {
@@ -10,30 +12,40 @@ header {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    align-content: center;
     width: 100%;
     background-color: black;
 
 }
-nav > ul {
-    display: flex;
-    justify-content: space-evenly;
 
-}
 .container {
     display: flex;
+    align-items: center;
+    align-content: center;
     width: 100%;
+    height: 5vw;
     max-width: 1200px;
+    padding: 1vw 0;;
+    justify-content: space-between;
 }
 
-.logo {
-    width: 20%;
-    height: 100px;
-    background-image: url(/assets/VideoTroopWhiteTextNoBackground.png);
-    background-size: 100% 100%;
+.logo-container {
+    width: 30%;
+    height: 80%;
+    background-image: url(assets/VideoTroopWhiteTextNoBackground.png);
+    background-repeat: no-repeat;
+    background-size: 11vw;
 }
-.nav {
+
+nav {
     color: white;
 }
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
 .col-1 {
     width: 8%;
 }
