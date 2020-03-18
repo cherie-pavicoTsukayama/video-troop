@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: "Montserrat", sans-serif;
     font-size: 1vw;
+    background-color: #EEEEEE;
 }
 
 ol, ul {
@@ -9,7 +10,8 @@ ol, ul {
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 4rem;
+    margin: 0;
 }
 
 header {
@@ -22,13 +24,15 @@ header {
     background-color: black;
 
 }
-
+.white{
+    background-color: white;
+}
 .container {
     display: flex;
     align-items: center;
     align-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
     justify-content: space-between;
 }
 
@@ -53,18 +57,23 @@ nav > ul {
     justify-content: space-between;
     padding: 0;
 }
-.hero-section {
+.all-caps {
+    text-transform: uppercase;
+}
+.section {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border: 5px solid red;
+    box-sizing: border-box;
+    /* border: 5px solid red; */
 }
 .hero {
     position: relative;
     display: flex;
     width: 100%;
-    height: 35vw;
+    height: 40vw;
     align-items: center;
     justify-content: center;
 }
@@ -73,7 +82,10 @@ nav > ul {
     z-index: 1;
 }
 
-
+.explainer-container {
+    height: 300px;
+    z-index: 1;
+}
 .video-container {
     position: absolute;
     top: 0;
