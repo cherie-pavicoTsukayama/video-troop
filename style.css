@@ -8,6 +8,10 @@ ol, ul {
 	list-style: none;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
 header {
     display: flex;
     flex-wrap: nowrap;
@@ -65,8 +69,11 @@ nav > ul {
     justify-content: center;
 }
 .hero-text {
+    color: white;
     z-index: 1;
 }
+
+
 .video-container {
     position: absolute;
     top: 0;
