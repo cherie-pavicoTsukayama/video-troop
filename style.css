@@ -1,11 +1,20 @@
 body{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 0;
     font-family: "Montserrat", sans-serif;
     font-size: 1vw;
+    background-color: #EEEEEE;
 }
 
 ol, ul {
 	list-style: none;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
 }
 
 header {
@@ -14,26 +23,35 @@ header {
     justify-content: center;
     align-content: center;
     width: 100%;
-    height: 70px;
+    max-width: 1500px;
+    height: 100px;
     background-color: black;
 
 }
-
+.white{
+    background-color: white;
+}
 .container {
     display: flex;
     align-items: center;
-    align-content: center;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1500px;
+    justify-content: center;
+}
+.container-pushed-in{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
     justify-content: space-between;
 }
-
 .logo-container {
     display: flex;
     height: 80%;
     background-repeat: no-repeat;
-    margin-left: 30px;
-    height: 80%;
+    margin-left: 40px;
+    height: 100%;
+    background-position: center;
     background-size:contain;
     background-image: url(assets/VideoTroopWhiteTextNoBackground.png);
     background-repeat: no-repeat;
@@ -42,29 +60,40 @@ header {
 
 nav {
     color: white;
-    margin-right: 30px;
+    margin-right: 40px;
 }
 nav > ul {
     display: flex;
     justify-content: space-between;
     padding: 0;
 }
-.hero-section {
+.all-caps {
+    text-transform: uppercase;
+}
+.section {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border: 5px solid red;
+    box-sizing: border-box;
+    /* border: 5px solid red; */
 }
 .hero {
     position: relative;
     display: flex;
     width: 100%;
-    height: 35vw;
+    height: 40vw;
     align-items: center;
     justify-content: center;
 }
 .hero-text {
+    color: white;
+    z-index: 1;
+}
+
+.explainer-container {
+    height: 300px;
     z-index: 1;
 }
 .video-container {
